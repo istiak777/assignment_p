@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+ background-color: darkgrey;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+}
+.logo-light{
+     color: black;
+        font:bold ;
+     width:100px;
+        padding: 20px;
+}
+.menu-list{
+list-style: none;
+display: flex;
+justify-content:space-around;
+align-items: center;
+}
+.item-list{
+
+    margin-right: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+   
+}
+.item-list:hover{
+    color: chartreuse;
+}
+.photo{
+    width: 400px;
+    background-size:cover;
+    background-position: center;
+
+
+}
+.banner-container{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    height: 100vh;
+    border: 2px solid rgb(126, 43, 43);
+    background-color: rgba(34, 80, 76, 0.507);
+}
+.text-main{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    margin: 10px;
+}
+.optional-text{
+
+    color: cornsilk;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin top: 10px;
+    margin bottom: 15px;
+}
+.btn{
+    color:white;
+    background-color: darkred;
+    margin: 10px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: grab;
+}
+.btn:hover{
+    color: chartreuse;
+}
+.about-container{
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    background-color: cornflowerblue;
+}
+.main-header3{
+    background-color: darkgray;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-align: center;
+    display: center;
+    margin-top: 1px;
+    margin-bottom: 2px;
+    border: 2px solid rgb(54, 8, 8);
+}
+.info-main{
+    font-size:30px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
